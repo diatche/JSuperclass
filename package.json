@@ -1,0 +1,23 @@
+{
+    "name": "jsuperclass",
+    "description": "Efficient class-like inheritance for JavaScript and Node.js",
+    "version": "0.1.0",
+    "author": "Pavel Diatchenko <diatche@gmail.com>",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "mocha test/test.js --timeout 200 --slow 99999"
+    },
+    "dependencies": {
+        "jsuper": "*"
+    },
+    "devDependencies": {
+        "should": "*",
+        "mocha": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/diatche/jsuperclass.git"
+    }
+}
+
